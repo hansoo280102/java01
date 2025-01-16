@@ -21,6 +21,7 @@
 
         <body>
             Hello from jsp
+            <jsp:include page="../layout/header.jsp" />
             <h1 class="text-capitalize text-blue">
                 ${hansooService}
                 <br>
